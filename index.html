@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <title>DataVis - Assignment 2</title>
     
-    Instead of this blank page, your beautiful visualizations should appear here :)
-    
     <!-- Loading d3js version 5-->
     <script src="d3.v5.min.js"></script>
   
-    
-    <!-- Loading style.css; use if needed -->
+    <!-- Loading style.css -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<!-- YOUR SOLUTION GOES HERE-->
+<div class="main-container">
+    <!-- Left Column: Scatterplot -->
+    <div id="my_dataviz">
+        <h2>Car Data Scatterplot</h2>
+        <p>Horsepower vs. City MPG</p>
+    </div>
 
+    <!-- Right Column: Details & Star Plot -->
+    <div id="details_panel">
+        <h2>Car Details</h2>
+        <p class="hint">Click on a dot to see details.</p>
+        
+        <!-- Container for text info -->
+        <div id="info_text"></div>
+        
+        <!-- Container for the Star Plot -->
+        <div id="star_plot_area"></div>
+    </div>
+</div>
 
-<!-- loading the main javascript file; implement logic there -->
+<!-- loading the main javascript file -->
 <script src="main.js"></script>
 
 </body>
