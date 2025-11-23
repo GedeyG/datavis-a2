@@ -1,5 +1,70 @@
 body {
-    height: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* YOUR CSS CODE GOES HERE */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+    max-width: 1200px;
+}
+
+
+
+#details_panel {
+    width: 350px;
+    padding-left: 20px;
+    border-left: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.hint {
+    color: #888;
+    font-style: italic;
+}
+
+/* Style for the selected dot */
+.selected-dot {
+    stroke: #333 !important;
+    stroke-width: 3px !important;
+    opacity: 1 !important;
+    fill-opacity: 1;
+}
+
+/* Axis styles */
+.x-axis-label, .y-axis-label {
+    fill: #333;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.tick line { stroke: #e0e0e0; }
+.domain { stroke: #333; }
+
+/* Star Plot Styles */
+.star-axis {
+    stroke: #ccc;
+    stroke-width: 1px;
+    stroke-dasharray: 4 4;
+}
+.star-path {
+    fill: rgba(31, 119, 180, 0.3);
+    stroke: #1f77b4;
+    stroke-width: 2px;
+}
+.star-label {
+    font-size: 10px;
+    fill: #666;
+    text-anchor: middle;
+}
