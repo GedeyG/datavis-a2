@@ -4,6 +4,9 @@ This repository contains the bare-bones files to start up and solve the second a
 
 It also contains the sample cars.csv dataset -- remember, it contains some errors! 
 
+## Name: Gábor Gedey
+I had no previous experience with javasript and local host, therefore I heavily relied on the internet and ai. First, I got the foundation of my code from the internet (https://d3-graph-gallery.com/graph/scatter_basic.html), and with a lot adjustments and help from Gemini ai, I have finished my interactive visualization including the bonus task. I worked alone on this project.
+
 ## Local development: 
 Pre-requisite: [Node.js](https://nodejs.org/en). Install `serve` using: 
 > npm install serve --global 
